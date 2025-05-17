@@ -12,8 +12,17 @@ To write a **NumPy** program that sorts the elements in each column of a given 2
 5. **Display Output**: Print the original array and the column-wise sorted array.
 
 ## 🧾 Program
-Add code here
+```
+import numpy as np
+arr=np.array(eval(input()))
+print("Given array")
+print(arr)
+print()
+print(np.sort(arr,axis=0))
+```
 
 ## Output
+![441752371-d3b4ad2f-8ae9-4384-b840-04fe701fc9da](https://github.com/user-attachments/assets/82153d0b-74c7-43c2-91f6-7acc2b6de266)
 
 ## Result
+Thus the program that sorts the elements in each column of a given 2D array in ascending order is executed successfully.
